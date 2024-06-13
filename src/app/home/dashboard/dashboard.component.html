@@ -1,0 +1,43 @@
+<app-header></app-header>
+<div class="container-fluid banner">
+  <!-- <h2 class="title" [ngClass]="{'animated-title': animateTitle}">Samvedana Foundation</h2> -->
+   <img src="assets/images/logo.png" alt="logo" class="img-fluid logo">
+  <h2 class="title">Samvedana Foundation</h2>
+  <span [ngClass]="{'animated-subtitle': animateSubtitle}">Be the change that you wish to see in the world</span>
+</div>
+<div class="container-fluid info">
+  <h6 class="work-title">What We Are Doing</h6>
+  <!-- <h2 >We Are In A Mission To Help The Helpless</h2> -->
+  <div class="row justify-content-around mb-5">
+    <!-- Card1 -->
+    <div class="card mt-2 shadow" style="width: 22rem;">
+      <img src="assets/images/school.jpg" class="card-img-top mt-3" alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+    <!-- Card2 -->
+    <div class="card mt-2 shadow" style="width: 22rem;">
+      <img src="assets/images/helping_hands.jpg" class="card-img-top mt-3" alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+    <!-- Card3 -->
+    <div class="card mt-2 shadow" style="width: 22rem;">
+      <img src="assets/images/helping_hands1.jpg" class="card-img-top mt-3" alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="container volunteer">
+    <h2>Lets Chenge The World With Humanity</h2>
+    <button type="button" class="btn btn-warning" (click)="volunteer()">Become A Volunteer</button>
+  </div>
+
+</div>
+<app-footer></app-footer>

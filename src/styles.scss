@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Muli", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Muli", sans-serif;
+  color: #072366;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: normal;
+}
+
+p {
+    font-family: "Muli", sans-serif;
+    color: #10285d;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+  }
+  .boxed-btn {
+    background: #fff;
+    color: #09cc7f !important;
+    display: inline-block;
+    padding: 18px 44px;
+    font-family: "Muli", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid #09cc7f;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #09cc7f;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .custom-container {
+    box-shadow: 0 4px 50px rgba(0, 0, 0, 0.1); /* Adds shadow */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px; /* Optional: adds rounded corners */
+    background-color: #fff; /* Ensures the background is white */
+    margin-bottom: 50px;
+  }
